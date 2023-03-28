@@ -51,10 +51,10 @@ export const App = () => {
     <main className="flex min-h-screen flex-col items-center justify-center gap-8">
       <h1>QR Codes</h1>
 
-      <div className="flex gap-4">
+      <div className="flex w-[300px] items-center gap-4">
         <span>URL:</span>
         <input
-          className="text-gray-800"
+          className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-800 shadow focus:outline-none"
           type="text"
           value={text}
           onChange={({ target: { value } }) => setText(value)}
