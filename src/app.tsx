@@ -54,7 +54,7 @@ export const App = () => {
       <div className="flex w-[300px] items-center gap-4">
         <span>URL:</span>
         <input
-          className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-800 shadow focus:outline-none"
+          className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-800 shadow focus:outline-none dark:text-gray-200"
           type="text"
           value={text}
           onChange={({ target: { value } }) => setText(value)}
